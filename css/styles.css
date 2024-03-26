@@ -177,12 +177,13 @@ button:hover {
     letter-spacing: 0.03em;
     color: var(--iris);
     transition: transform var(--transition);
+    text-decoration: none;
 }
 
 .logo::after {
     content: "STUDIO";
     color: var(--navy-blue);
-    transition: transform var(--transition);
+    transition: transform var(--transition); text-decoration: none;
 }
 
 .logo:hover,
@@ -204,7 +205,7 @@ button:hover {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    padding-bottom: 20px;
+    padding-bottom: 20px; text-decoration: none;
 }
 
 .navbar-list-item:hover {
@@ -230,11 +231,11 @@ button:hover {
     letter-spacing: 0.02em;
     display: flex;
     gap: 40px;
-    margin-left: 100px;
+    margin-left: 100px; 
 }
 
 .contact a {
-    color: var(--slate);
+    color: var(--slate); text-decoration:none;
 }
 
 .contact a:hover {
@@ -253,7 +254,7 @@ button:hover {
 
 .hero {
     background-color: var(--default-text-color);
-    padding: 120px 0;
+    padding: 120px ;
 }
 
 .hero {
@@ -341,8 +342,7 @@ button:hover {
 
 .our-team-card{
     width: 1200px;
-    height: 732px; 
-}
+    height: 732px;}
 
 .card-set {
     display: flex;
@@ -551,7 +551,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.16667;
     letter-spacing: 0.03em;
     color: var(--iris);
-    transition: transform var(--transition);
+    transition: transform var(--transition); text-decoration: none;
 }
 
 .footer-logo::after {
@@ -569,7 +569,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 264px;
+    width: 264px; 
 }
 
 .footer-section-logo p {
@@ -578,7 +578,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: var(--cloud); 
 }
 
 .footer-section-style {
